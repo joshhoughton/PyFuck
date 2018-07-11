@@ -2,6 +2,8 @@
 Command-line brainfuck interpreter written in Python 3
 If you have any suggestions or improvements, please go ahead! 
 
+Any program executed may access up to 30,000 cells.
+
 ## Usage
 ```
 python3 brainfuck.py [-d] file_name
