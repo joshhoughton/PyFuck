@@ -15,7 +15,7 @@ MAPPINGS = {
 
 class Brainfuck:
     """Provides methods to interface with the data array.
-    Each method corresponds to a Brainfuck instruction.
+    Each method corresponds to a brainfuck instruction.
     """
 
     def __init__(self, file_name, show_array=False):
@@ -115,9 +115,9 @@ class Brainfuck:
             self.instruction_pointer = self.invparens[self.instruction_pointer]
 
 
-parser = argparse.ArgumentParser('Execute a Brainfuck program.')
+parser = argparse.ArgumentParser('Execute a brainfuck program.')
 parser.add_argument('file_name', metavar='file', type=str,
-                    help='Name of Brainfuck program.')
+                    help='Name of brainfuck program.')
 parser.add_argument('-d', dest='show_array', action='store_true',
                     help='Show data array at the end of execution.')
 
