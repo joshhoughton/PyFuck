@@ -1,5 +1,5 @@
 # PyFuck
-Command-line Brainfuck interpreter written in Python 3
+Command-line brainfuck interpreter written in Python 3
 If you have any suggestions or improvements, please go ahead! 
 
 ## Usage
